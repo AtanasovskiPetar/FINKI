@@ -1,0 +1,141 @@
+/* 216052 - Petar Atanasovski */
+/* Со среќа */
+body{
+    line-height: 1.5;
+    width: 1240px;
+    margin:auto;
+    background:url("../images/bg.jpg");
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#container{
+    width: 840px;
+    margin: auto;
+    background-color: white;
+}
+#banner{
+    width: 840px;
+    height: 114px;
+    background:url("../images/banner_bg.jpg");
+    background-size: 100%;
+    right: 0px;
+    text-align: right;
+}
+#menu ul li{
+    display: inline;
+    padding: 10px;
+}
+#menu ul{
+    display: block;
+    position: absolute;
+    z-index: 3;
+    background:url("../images/menu_bg.jpg");
+    top:90px;
+    width: 800px;
+    height: 37px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+#menu a{
+    color: white;
+}
+.column_w210, .column_w430{
+    padding: 1%;
+    width: 22%;
+    float: left;
+    margin-top: 20px;
+    background-color: rgb(94, 92, 92);
+    height:550px;
+    padding-top: 20px;
+    border-bottom-width: 2px;
+    border-bottom-style:solid ;
+    border-bottom-color: black;
+}
+.column_w430{
+    width: 49.5%;
+    border-left-width: 2px;
+    border-left-style:solid ;
+    border-left-color: black;
+    border-right-width: 2px;
+    border-right-style:solid ;
+    border-right-color: black;
+}
+.header_01{
+    font-size: 20px;
+    color: gold;
+    padding-bottom: 20px;
+}
+.column_w210 a, .column_w430 a{
+    text-decoration: underline;
+    color: gold;
+}
+.column_w210 ul li{
+    list-style-image: url("../images/list_icon.jpg");
+}
+.column_w210 ul li a{
+    text-decoration: none;
+    color:rgb(255, 248, 231);
+}
+.rc_btn_01{
+    margin-left: 80px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    background: url("../images/button_01.jpg");
+}
+.cleaner{
+    clear: both;
+}
+.column_w190{
+    padding-top: 165px;
+    width: 25%;
+    float: left;
+    background-color: rgb(94, 92, 92);
+    
+}
+
+#footer{
+    clear: both;
+    margin-top: -20px;
+    padding-top: 30px;
+    height: 105px;
+    background: url('../images/footer.jpg');
+    background-position-y: 20px;
+}
+
+.footer_list li{
+    display: inline;
+    padding: 10px;
+}
+.footer_list li a{
+    color: white;
+}
+.footer a{
+    color: white;
+}
+.footer_list {
+    position: relative;
+    left:215px;
+}
+#logo{
+    margin-left: 20px;
+    padding-top: 20px;
+    height: 114px;
+    width: 303px;
+    background:url("../images/logo.png");
+    z-index: 4;
+}
+#search_section{
+    z-index: 5;
+    position: relative;
+    top:-100px;
+    height: 40px;
+}
+#search_section f{
+    background-color: red;
+}

@@ -1,0 +1,241 @@
+body{
+    line-height: 1.5;
+    color: rgb(34, 34, 34);
+    width: 1300px;
+}
+#header{
+    background: url("../images/bottom-shadow.gif");
+    position: absolute;
+    top:50px;
+    padding-left:200px;
+    padding-right:200px;
+    width: 1300px;
+}
+#header img{
+    margin-left:20px;
+    padding-bottom: 10px;
+}
+#navigation ul li{
+    display: inline;
+    padding-right: 30px;
+}
+#navigation ul{
+    display: block;
+    position: absolute;
+    top:70px;
+    background:url("../images/bg-menu.gif");
+    height: 20px;
+    padding: 10px;
+    z-index: 5;
+}
+ #search{
+    display: block;
+    position: relative;
+    background:url("../images/bg-menu.gif");
+    width: 700px;
+    text-align: right;
+    top:9px;
+    left:180px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+}
+#search .txtfield{
+    background: url("../images/bg-search.gif")no-repeat;
+    background-size: contain;
+    padding-top: 10px;
+}
+#search .button{
+    background: url("../images/spotlight.gif")no-repeat;
+    background-size: contain;
+}
+#adbox{
+    position: absolute;
+    top:170px;
+    padding-left:200px;
+    padding-right:200px;
+    width: 1300px;
+    z-index: 3;
+}
+.details{
+    display: block;
+    float: left;
+    width: 900px;
+    height: 298px;
+}
+.details p{
+    background: url("../images/discussing2.jpg") no-repeat,
+    url("../images/shake-hands.jpg")no-repeat,
+    url("../images/professionals.jpg")no-repeat;
+    background-position-x: 210px,695px,695px;
+    background-position-y: 0px,0px,150px;
+    padding-right: 700px;
+    height: 280px;
+}
+.jumbotron{
+    display: none;
+}
+.footer{
+    width: 900px;
+    left:200px;
+    position: absolute;
+    top:296px;
+    display: block;
+    clear: both;
+    background:url("../images/bg-menu.gif");
+    background-size: contain;
+    z-index: 4;
+}
+.footer ul li{
+    display: block;
+    width: 33.3%;
+    float: left;
+    font-size: 14px;
+}
+.footer ul{
+    display: block;
+    left:150px;
+}
+.footer ul li img{
+    float:left;
+    padding-right: 15px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    font-weight:bold;
+    font-size: 14px;
+}
+#contents{
+    background:url("../images/bottom-shadow.gif");
+    position: absolute;
+    top:520px;
+    padding-left:200px;
+    padding-right:200px;
+    width: 1300px;
+    z-index: 2;
+    color: white;
+}
+#contents .body{
+    margin-top: 100px;
+    display: flex;
+}
+#sidebar{
+    width: 350px;
+}
+#sidebar ul li span{
+    display: block;
+    padding-bottom: 20px;
+    color: rgb(112, 143, 195);
+}
+#sidebar ul li span a{
+    color: white;
+    padding: 4px;
+    background:url('../images/bg-comment.gif')no-repeat;
+    background-size:cover;
+}
+#main{
+    width: 550px;
+    background-color: rgb(33, 33, 60);
+    margin-bottom: 20px;
+}
+#main span{
+    display: block;
+    width: 450px;
+}
+#main ul li{
+    display: block;
+    float:left;
+    width: 50%;
+}
+#main ul li img{
+    float: left;
+}
+#main ul li h3{
+    float: right;
+    width: 130px;
+    text-decoration: none;
+    color: white;
+}
+#main ul li p{
+    clear: both;
+}
+#main a{
+    color: white;
+    font-weight: bold;
+}
+#footer{
+    background-color: rgb(33, 33, 60);
+    color: white;
+    position: absolute;
+    display: flex;
+    top:1150px;
+    padding-left:200px;
+    padding-right:200px;
+    padding-top:50px;
+    width: 1300px;
+}
+#footer .contacts{
+    width: 270px;
+}
+#footer .contacts p{
+    display:inline;
+    padding-left: 10px;
+}
+li{
+    list-style-type: none;
+}
+#footer #connect{
+    width: 180px;
+}
+#footer #connect li{
+    width: 180px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+#footer #connect li a{
+    text-decoration: none;
+    color: white;
+}
+#footer #newsletter{
+    width: 400px;
+}
+.footnote{
+    position: absolute;
+    bottom: 0px;
+    margin-top:20px; 
+    left:500px
+}
+#newsletter b{
+    display: block;
+    padding-bottom: 10px;
+}
+.txtfield{
+    background: url("../images/input.gif");
+}
+.button{
+    background:url("../images/check.jpg") no-repeat;
+    background-size: contain;
+}
+a{
+    text-decoration: none;
+}
+#header a{
+    color:rgb(37, 31, 98);
+}
+.details span{
+    display: block;
+    color:rgb(37, 31, 98);
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.details a{
+    color:rgb(37, 31, 98);
+    font-weight: bold;
+}
+.details p span{
+    size:25px;
+}

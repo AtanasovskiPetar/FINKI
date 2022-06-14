@@ -1,0 +1,179 @@
+body{
+    background: rgb(9, 72, 109);  
+    width: 1500px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:11px;
+    font-style: italic;
+    line-height: 1.5;
+}
+.container{
+    position: absolute;
+    left:350px;
+    background-image: url("images/cover.png"); 
+    width: 707px;
+    padding: 35px;
+}
+[role=banner]{
+    position: relative;
+    top:10px;
+    left: 60px;
+    width: 299px;
+    height: 93px;
+    background: url("images/game-of-thrones.jpg")no-repeat,
+    url("images/ice-and-fire.jpg")no-repeat bottom ;
+    margin-top: 50px;
+}
+[role=banner] h1, [role=banner] h2{
+    display: none;
+}
+#div-summary{
+    height: 150px;
+    position: relative;
+    margin-top: 16px;
+    right: 10px;
+    background: url("images/bookmark.jpg")no-repeat top right;
+    position: absolute;
+    width: 320px;
+    top: 0px;
+    left: 400px;
+}
+#div-summary :nth-child(1){
+    margin-right: 100px;
+}
+#div-summary :nth-child(2){
+    display: block;
+    position: absolute;
+    top:0px;
+    left:250px;
+    width: 70px;
+}
+#div-introduction{
+    padding-bottom: 100px;
+    position: absolute;
+    width: 330px;
+    top: 170px;
+    left: 400px;
+    padding-bottom: 80px;
+    background: url("images/about.png")no-repeat bottom left;
+}
+#div-introduction h3{
+    display: none;
+}
+#div-about h3{
+    display: none;
+}
+#div-about{
+    margin-top: 210px;
+    background: url("images/introduction.png") no-repeat top right,
+    url("images/img_1.jpg")no-repeat top,
+    url("images/people.png") no-repeat bottom right;
+    background-position-y: 0px,30px,450px;
+    padding-top: 205px;
+    padding-bottom: 70px;
+    width: 330px;
+}
+#div-about p{
+    text-align: left;
+}
+#div-people{
+    padding-top: 191px;
+    background: url("images/img_2.jpg")no-repeat;
+    position: absolute;
+    width: 330px;
+    top: 420px;
+    left: 400px;
+}
+#div-people h3{
+    display: none;
+}
+#div-people2{
+    position: absolute;
+    width: 330px;
+    top: 850px;
+    left: 400px;
+}
+#div-most-visited{
+    background: url('images/img_3.jpg') no-repeat top right;
+    padding-top: 200px;
+    width: 330px;
+}
+#div-most-visited ul{
+    background: url("images/most-visited.png") no-repeat;
+    padding-top: 30px;
+    margin-left: 80px;
+}
+#div-most-visited h3{
+    display: none;
+}
+#div-backstage-links{
+    margin-left: 80px;
+    width: 150px;
+    height: 170px;
+    background: url("images/notes.jpg")no-repeat;
+    background-size: cover;
+    padding-top: 1px;
+    padding-left: 8px;
+}
+#div-backstage-links h3{
+    display: none;
+}
+#div-backstage-links ul{
+    padding-top: 30px;
+    background: url("images/backstage.png") no-repeat;
+}
+footer{
+    position: absolute;
+    width: 757px;
+    right: 13.5px;
+    top:1300px;
+    padding-bottom: 110px;
+    background:url("images/cover_bot.png")no-repeat bottom;
+    text-align: right;
+}
+footer .footer-link{
+    padding: 10px;
+}
+#footer3{
+    margin-right: 120px;
+}
+footer a{
+    text-decoration: none;
+}
+#div-top{
+    position: absolute;
+    top:0px;
+    padding-bottom: 100px;
+    width: 762px;
+    background: url("images/cover_top.png")no-repeat;
+    right: 15px;
+}
+a{
+    text-decoration: none;
+    list-style-image: url("images/bull.png");
+}
+.navigation li{
+    list-style-image: url("images/bull.png");
+}
+.navigation li a{
+    color: rgb(8, 8, 49);
+}
+.navigation li a:hover{
+    color: red;
+}
+.extra-link a{
+    color: rgb(8, 8, 49);
+}
+.extra-link a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#div-summary :nth-child(2){
+    color: white;
+}
+#div-summary :nth-child(2) a{
+    color: white;
+    text-decoration: underline;
+}
+footer a{
+    color: black;
+}

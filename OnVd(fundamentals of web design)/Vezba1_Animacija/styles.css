@@ -1,0 +1,101 @@
+body{
+    text-align: left;
+    font-family: Verdana, Arial, Serif;
+    font-size: 11px;
+    color: #333;
+}
+#pageHeader{
+    width: 605px;
+    height: 332px;
+    background-image: url("images/top.gif");
+}
+#container{
+    width: 633px;
+    padding-left: 29px;
+    background: url("images/containerbackground.gif");
+}
+#pageHeader h1{
+    display: none;
+}
+#preamble, #explanation,#participation{
+    margin-left: 8px;
+}
+#preamble h3 span, #explanation h3 span, #participation h3 span{
+    display: none;
+}
+#preamble h3 , #explanation h3, #participation h3{
+    background-image: url("images/title1.gif");
+    width: 389px;
+    height: 46px;
+    padding: 0px;
+    margin: 0px;
+}
+#explanation h3{
+    background-image: url("images/title2.gif");
+}
+#participation h3{
+    background-image: url("images/title3.gif");
+}
+#preamble p, #explanation p, #participation p{
+    text-align: left;
+    padding: 10px; 
+    margin: 0px;
+    width: 369px;
+}
+#quickSummary{
+    background: url("images/summary.gif") no-repeat;
+    padding: 7.5px;
+    padding-top: 46px;
+    position: absolute;
+    width: 178px;
+    top: 340px;
+    left: 428px;
+    text-align: left;
+    margin-left: 15px;
+}
+#lselect{
+    background: url("images/designs.gif") no-repeat;
+    padding: 7.5px;
+    padding-top: 46px;
+    position: absolute;
+    width: 178px;
+    top: 496px;
+    left: 428px;
+    text-align: left;
+    margin-left: 15px;
+}
+.select{
+    display: none;
+}
+#lresources{
+    margin-left: 15px;
+    background: url("images/resources.gif") no-repeat;
+    padding: 7.5px;
+    padding-top: 46px;
+    position: absolute;
+    width: 178px;
+    top: 678px;
+    left: 428px;
+    text-align: left;
+}
+.resources{
+    display: none;
+}
+#lselect li{
+    list-style-image: url("images/paperfolded.gif");
+}
+#lresources li {
+    list-style-image: url("images/paper.gif"); 
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:HOVER{
+    text-decoration: underline;
+    color: #CC0000;
+}
+a:visited{
+    text-decoration: none;
+    color: #CC0000;
+}
