@@ -1,0 +1,143 @@
+nav{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.links{
+    float: right;
+}
+section{
+    overflow:hidden;
+    background-color: #000080;
+}
+section div{
+    padding-top: 7%;
+    padding-left: 10%;
+    float: left;
+}
+h1,h3{
+    color: white;
+}
+section h1{
+    font-size: 2.5em;
+}
+section h3{
+    font-size: 1.5em;
+}
+section img{
+    float: right;
+    padding-right: 10%;
+    height: 25em;
+}
+article{
+    overflow: hidden;
+    background-color: rgb(83, 138, 83);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 1.5%;
+}
+.par1 img{
+    width: 17em;
+    float: left;
+}
+.par1 p{
+    text-align: justify;
+    width: 71%;
+    float: right;
+}
+.par2{
+    padding-top: 2%;
+    clear: both;
+}
+.par2 p{
+    text-align: justify;
+    width: 68%;
+    float: left;
+}
+.par2 img{
+    width: 17em;
+    float: right;
+}
+article img{
+    border-radius: 5%;
+}
+footer{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+footer p{
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+.subNav{
+    overflow: hidden;
+    background-color: lightgreen;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.subNav h1{
+    display: block;
+    float: left;
+    padding-right: 10%;
+}
+.subNav h3{
+    float: right;
+}
+.team, .contact{
+    overflow: hidden;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 1.5%;
+    background-color: rgb(207, 196, 196);
+}
+.team h1{
+    text-align: center;
+}
+.people{
+    float: left;
+    overflow: hidden;
+    background-color: white;
+    margin: 1.5%;
+    border-radius: 5%;
+    width: 22%;
+}
+.people img{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 4%;
+    width: 95%;
+}
+.people h2{
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+}
+.people h4{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 10%;
+    font-size: 0.8em;
+    text-align: justify;
+}
+.text{
+    float: left;
+    width: 60%;
+}
+.contact img{
+    padding-top: 8%;
+    float: right;
+    width: 40%;
+}
+.contact .address{
+    clear: right;
+    float:right;
+}
+.contact h5{
+    text-align: justify;
+    font-size: 1.1em;
+}

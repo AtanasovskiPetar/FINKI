@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Laboratoriska vezba lab5">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Nikola Dinevski">
+    <link rel="stylesheet" href="styles.css">
+    <title> FinkiPage </title>
+</head>
+
+
+<body style="background-color: white ;">
+
+    <nav>
+        <li>
+            <h1>Finki<span style="color: rgb(132, 228, 132);">Page</span></h1>
+        </li>
+        <li class="nav"> <a href="./info.html"> INFO </a> </li>
+        <li class="nav activated" style="padding-right: 17px;"> <a href="./contact.html" class="activated"> CONTACT </a> </li>
+        <li class="nav "> <a href="./index.html"> HOME </a> </li>
+    </nav>
+
+    <section style="background-color: rgb(139, 231, 139);">
+        <div style="clear: both ;"></div>
+
+        <div class="formular">
+            <form>
+                <div style="float:left ;">
+                    <label for="FirstName">First Name</label>
+                    <br/>
+                    <input type="text" placeholder="Your Name..">
+                    <br/>
+
+                    <label for="DateBirth">Date of birth</label>
+                    <br/>
+                    <input type="date">
+                    <br/>
+
+                    <label for="country">Country</label>
+                    <br/>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="usa">USA</option>
+                        <option value="macedonia">Macedonia</option>
+                        
+                    </select>
+                    <br/>
+
+                    <label for="CV" style="border: solid black 0px ;">CV</label>
+                    <input type="file" style="border: solid black 0px ;">
+                </div>
+
+
+
+                <div>
+                    <label for="LastName">Last Name</label>
+                    <br/>
+                    <input type="text" placeholder="Your Last Name..">
+                    <br/>
+
+                    <label for="LastName">Subject</label>
+                    <br/>
+                    <textarea placeholder="Write Something.." style="width:720px; height:130px"></textarea>
+                    <br/>
+
+                </div>
+                <div style="clear: both ;"> </div>
+                <br/>
+                <input type="submit" style="text-align: center ;">
+            </form>
+        </div>
+    </section>
+    <p class="heading">
+        Contact
+    </p>
+
+</body>
+
+</html>

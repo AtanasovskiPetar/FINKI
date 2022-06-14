@@ -1,0 +1,125 @@
+a {
+    color: rgb(90, 123, 215);
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: -40px;
+}
+
+li {
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.nav {
+    margin-top: 0px;
+    float: right;
+    margin-right: 10px;
+}
+
+.activated {
+    color: white;
+    background-color: rgb(90, 123, 215);
+}
+
+section {
+    width: 1500px;
+    position: relative;
+    top: 50px;
+    height: 1000px;
+    margin: 0%;
+}
+
+
+.formular {
+    padding-top: 35px;
+    background-color: rgb(252, 252, 252);
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 200px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+
+input,
+select {
+    width: 700px;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border: solid rgb(226, 226, 226) 1px;
+    border-radius: 3px;
+}
+
+input[type=submit] {
+    width: 400px;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border: solid rgb(226, 226, 226) 1px;
+    border-radius: 3px;
+    margin-left: 550px;
+    background-color: rgb(107, 170, 107);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.heading {
+    position: relative;
+    left: 910px;
+    top: -970px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+table,
+th,
+td,
+tr {
+    border: 2.5px solid black;
+}
+
+
+.tg  {
+    border-collapse:collapse;border-spacing:0;
+}
+.tg td{
+    border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    overflow:hidden;padding:10px 5px;word-break:normal;
+}
+.tg th{
+    border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
+}
+.tg .tg-o0bt{
+    background-color:#8be78b;border-color:inherit;text-align:center;vertical-align:middle;
+}
+.tg .tg-ly4a{
+    background-color:#8be78b;border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle;
+}
+.tg .tg-ok1l{
+    background-color:#8be78b;border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;text-align:center;
+    vertical-align:middle
+}
+table {
+    width: 1700px;
+    height: 300px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    margin-left: -30px;
+}
+.center {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 90px;
+}
