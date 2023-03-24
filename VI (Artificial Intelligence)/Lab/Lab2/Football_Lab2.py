@@ -590,32 +590,17 @@ class Football(Problem):
 
         return successors
 
-    @staticmethod
-    def manhattan_distance(x1, x2, y1, y2):
-        return abs(x1 - x2) + abs(y1 - y2)
-
-    @staticmethod
-    def euclidean_distance(x1, x2, y1, y2):
-        return math.sqrt(math.pow(x1 - x2, 2) + math.pow(y1 - y2, 2))
-
     def h(self, node):
         ball_pos = node.state[1]
         goal = [(7, 2), (7, 3)]
-        # manhattan1 = self.manhattan_distance(ball_pos[0], goal[0][0], ball_pos[1], goal[0][1])
-        # manhattan2 = self.manhattan_distance(ball_pos[0], goal[1][0], ball_pos[1], goal[1][1])
 
         # ne e optimisticko evklidovoto rastojanie, bidejki ima dvizenje dijagonalno
-        euclidean1 = math.floor(self.euclidean_distance(ball_pos[0], goal[0][0], ball_pos[1], goal[0][1]))
-        euclidean2 = math.floor(self.euclidean_distance(ball_pos[0], goal[1][0], ball_pos[1], goal[1][1]))
 
-        distance1 = abs(goal[0][0] - ball_pos[0])
-        distance2 = abs(goal[1][0] - ball_pos[0])
+        distance1_x = abs(goal[0][0] - ball_pos[0])
+        distance2_x = abs(goal[1][0] - ball_pos[0])
 
-        # if ball_pos[0] >= goal[0][0]-5 and ball_pos[1] >= goal[0][1]-2:
-        #     return min(euclidean1, euclidean2)
-        #
-        # if ball_pos[0] >= goal[1][0] - 5 and ball_pos[1] <= goal[1][1] + 2:
-        #     return min(euclidean1, euclidean2)
+        distance1_y = abs(goal[0][1] - ball_pos[1])
+        distance2_y = abs(goal[1][1] - ball_pos[1])
 
         if ball_pos == (6, 1) or ball_pos == (6, 4):
             return 3
@@ -626,7 +611,9 @@ class Football(Problem):
         if ball_pos[1] == 0 or ball_pos[1] == 5:
             return 10
 
-        return min(distance1, distance2)
+        distance_x = min(distance1_x, distance2_x)
+        distance_y = min(distance1_y, distance2_y)
+        return min(distance_x, distance_y)
 
 
 if __name__ == '__main__':
@@ -639,7 +626,3 @@ if __name__ == '__main__':
     result = astar_search(football_problem)
     print(result.solution())
 
-# ['Pomesti coveche gore', 'Pomesti coveche gore', 'Turni topka dolu-desno', 'Pomesti coveche dolu', 'Turni topka desno', 'Turni topka desno', 'Turni topka desno', 'Turni topka desno', 'Pomesti coveche dolu', 'Turni topka gore-desno']
-# ['Pomesti coveche gore', 'Pomesti coveche gore', 'Turni topka dolu-desno', 'Pomesti coveche dolu', 'Turni topka desno', 'Turni topka desno', 'Turni topka desno', 'Pomesti coveche dolu', 'Turni topka gore-desno', 'Turni topka gore-desno']
-
-# ['Pomesti coveche gore', 'Pomesti coveche gore', 'Turni topka dolu-desno', 'Pomesti coveche dolu', 'Turni topka desno', 'Turni topka desno', 'Turni topka desno', 'Turni topka desno', 'Pomesti coveche dolu', 'Turni topka gore-desno']

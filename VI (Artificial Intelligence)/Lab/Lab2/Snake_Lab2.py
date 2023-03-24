@@ -559,8 +559,25 @@ class Snake(Problem):
     def goal_test(self, state):
         return len(state[2]) == 0
 
+    @staticmethod
+    def manhattan_distance(x1, x2, y1, y2):
+        return abs(x1 - x2) + abs(y1 - y2)
+
     def h(self, node):
-        return len(node.state[2])
+        # return len(node.state[2])
+        head_x = node.state[1][0][0]
+        head_y = node.state[1][0][0]
+        distances_list = list()
+        for apple in node.state[2]:
+            apple_x = apple[0]
+            apple_y = apple[1]
+            distances_list.append(self.manhattan_distance(head_x, apple_x, head_y, apple_y))
+
+        if len(distances_list) != 0:
+            return max(distances_list)
+
+        else:
+            return 0
 
 
 if __name__ == '__main__':
@@ -574,6 +591,3 @@ if __name__ == '__main__':
     snake_problem = Snake(initial)
 
     print(astar_search(snake_problem).solution())
-
-# ['SvrtiLevo', 'SvrtiLevo', 'ProdolzhiPravo', 'SvrtiDesno', 'ProdolzhiPravo', 'SvrtiDesno', 'ProdolzhiPravo', 'SvrtiLevo', 'ProdolzhiPravo', 'SvrtiDesno', 'ProdolzhiPravo', 'SvrtiDesno', 'ProdolzhiPravo']
-# ['ProdolzhiPravo', 'ProdolzhiPravo', 'SvrtiLevo', 'ProdolzhiPravo', 'ProdolzhiPravo', 'ProdolzhiPravo', 'ProdolzhiPravo', 'SvrtiLevo', 'ProdolzhiPravo', 'SvrtiLevo', 'ProdolzhiPravo', 'SvrtiDesno', 'ProdolzhiPravo']
