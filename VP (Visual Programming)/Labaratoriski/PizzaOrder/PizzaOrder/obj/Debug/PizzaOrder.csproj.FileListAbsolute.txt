@@ -1,0 +1,11 @@
+C:\Users\User\VP_Petar\Labaratoriski\PizzaOrder\PizzaOrder\bin\Debug\PizzaOrder.exe.config
+C:\Users\User\VP_Petar\Labaratoriski\PizzaOrder\PizzaOrder\bin\Debug\PizzaOrder.exe
+C:\Users\User\VP_Petar\Labaratoriski\PizzaOrder\PizzaOrder\bin\Debug\PizzaOrder.pdb
+C:\Users\User\VP_Petar\Labaratoriski\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.csproj.AssemblyReference.cache
+C:\Users\User\VP_Petar\Labaratoriski\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\VP_Petar\Labaratoriski\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.Form1.resources
+C:\Users\User\VP_Petar\Labaratoriski\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.Properties.Resources.resources
+C:\Users\User\VP_Petar\Labaratoriski\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.csproj.GenerateResource.cache
+C:\Users\User\VP_Petar\Labaratoriski\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.csproj.CoreCompileInputs.cache
+C:\Users\User\VP_Petar\Labaratoriski\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.exe
+C:\Users\User\VP_Petar\Labaratoriski\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.pdb

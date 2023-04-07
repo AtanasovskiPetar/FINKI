@@ -1,0 +1,15 @@
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/bin/Debug/net7.0/av1
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/bin/Debug/net7.0/av1.deps.json
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/bin/Debug/net7.0/av1.runtimeconfig.json
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/bin/Debug/net7.0/av1.dll
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/bin/Debug/net7.0/av1.pdb
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/obj/Debug/net7.0/av1.csproj.AssemblyReference.cache
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/obj/Debug/net7.0/av1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/obj/Debug/net7.0/av1.AssemblyInfoInputs.cache
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/obj/Debug/net7.0/av1.AssemblyInfo.cs
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/obj/Debug/net7.0/av1.csproj.CoreCompileInputs.cache
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/obj/Debug/net7.0/av1.dll
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/obj/Debug/net7.0/refint/av1.dll
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/obj/Debug/net7.0/av1.pdb
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/obj/Debug/net7.0/av1.genruntimeconfig.cache
+/Users/atanasovskipetar/Documents/Fakultet/Vtora/Визуелно Програмирање/av1/av1/obj/Debug/net7.0/ref/av1.dll

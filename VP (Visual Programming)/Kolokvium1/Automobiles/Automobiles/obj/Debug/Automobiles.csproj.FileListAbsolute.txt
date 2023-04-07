@@ -1,0 +1,12 @@
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\bin\Debug\Automobiles.exe.config
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\bin\Debug\Automobiles.exe
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\bin\Debug\Automobiles.pdb
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\obj\Debug\Automobiles.csproj.AssemblyReference.cache
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\obj\Debug\Automobiles.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\obj\Debug\Automobiles.BrandForm.resources
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\obj\Debug\Automobiles.Form1.resources
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\obj\Debug\Automobiles.Properties.Resources.resources
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\obj\Debug\Automobiles.csproj.GenerateResource.cache
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\obj\Debug\Automobiles.csproj.CoreCompileInputs.cache
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\obj\Debug\Automobiles.exe
+C:\Users\User\VP_Petar\Kolokvium1\Automobiles\Automobiles\obj\Debug\Automobiles.pdb

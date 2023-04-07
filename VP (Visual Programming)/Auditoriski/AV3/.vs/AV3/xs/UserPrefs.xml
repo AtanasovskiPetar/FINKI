@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{FA022DBE-A2F0-44A7-81F4-77623B7AC00C}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AV3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AV3/Program.cs">
+    <Files>
+      <File FileName="AV3/Program.cs" Line="31" Column="14" />
+      <File FileName="AV3/Song.cs" Line="16" Column="10" />
+      <File FileName="AV3/Album.cs" Line="20" Column="1" />
+      <File FileName="AV3/SongNotFoundException.cs" Line="4" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AV3" expanded="True">
+            <Node name="AV3" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
