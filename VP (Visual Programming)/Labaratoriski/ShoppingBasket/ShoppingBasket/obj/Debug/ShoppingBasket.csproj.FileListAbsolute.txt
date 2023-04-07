@@ -1,0 +1,12 @@
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\bin\Debug\ShoppingBasket.exe.config
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\bin\Debug\ShoppingBasket.exe
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\bin\Debug\ShoppingBasket.pdb
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\obj\Debug\ShoppingBasket.csproj.AssemblyReference.cache
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\obj\Debug\ShoppingBasket.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\obj\Debug\ShoppingBasket.Form1.resources
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\obj\Debug\ShoppingBasket.NewProduct.resources
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\obj\Debug\ShoppingBasket.Properties.Resources.resources
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\obj\Debug\ShoppingBasket.csproj.GenerateResource.cache
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\obj\Debug\ShoppingBasket.csproj.CoreCompileInputs.cache
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\obj\Debug\ShoppingBasket.exe
+C:\Users\User\VP_Petar\Labaratoriski\ShoppingBasket\ShoppingBasket\obj\Debug\ShoppingBasket.pdb
