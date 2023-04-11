@@ -2,10 +2,9 @@ from constraint import *
 
 
 class Participant:
-    def __init__(self, weight, name, type):
+    def __init__(self, weight, name):
         self.weight = weight
         self.name = name
-        self.type = type
 
     def get_weight(self):
         return self.weight
@@ -13,8 +12,6 @@ class Participant:
     def get_name(self):
         return self.name
 
-    def get_type(self):
-        return self.type
 
 
 def max_sum_constraint(*args):
@@ -45,7 +42,7 @@ if __name__ == '__main__':
 
     for i in range(num_members):
         info = input().split(' ')
-        domains.append(Participant(float(info[0]), info[1], 'participant'))
+        domains.append(Participant(float(info[0]), info[1]))
 
     fantasy_problem.addVariables(variables, domains)
 
@@ -53,7 +50,7 @@ if __name__ == '__main__':
     num_leaders = int(input())
     for i in range(num_leaders):
         info = input().split(' ')
-        leader_domain.append(Participant(float(info[0]), info[1], 'leader'))
+        leader_domain.append(Participant(float(info[0]), info[1]))
 
     fantasy_problem.addVariable('Team leader', leader_domain)
 
