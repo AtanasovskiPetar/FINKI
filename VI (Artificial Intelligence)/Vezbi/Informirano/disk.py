@@ -460,40 +460,38 @@ class DiskProblem(Problem):
     def successor(self, state):
         curr_list = list(state)
         successors = dict()
-        moves = ('D1, ', 'D2', 'L1', 'L2')
 
         for index in range(self.length):
-            for move in moves:
-                element = curr_list[index]
-                if element != '0':
+            element = curr_list[index]
+            if element != '0':
 
-                    # D1
-                    if index < self.length - 1 and curr_list[index + 1] == '0':
-                        new_list = list(state)
-                        new_list[index + 1] = element
-                        new_list[index] = '0'
-                        successors['D1: ' + element] = tuple(new_list)
+                # D1
+                if index < self.length - 1 and curr_list[index + 1] == '0':
+                    new_list = list(state)
+                    new_list[index + 1] = element
+                    new_list[index] = '0'
+                    successors['D1: ' + element] = tuple(new_list)
 
-                    # D2
-                    if index < self.length - 2 and curr_list[index + 1] != '0' and curr_list[index + 2] == '0':
-                        new_list = list(state)
-                        new_list[index + 2] = element
-                        new_list[index] = '0'
-                        successors['D2: ' + element] = tuple(new_list)
+                # D2
+                if index < self.length - 2 and curr_list[index + 1] != '0' and curr_list[index + 2] == '0':
+                    new_list = list(state)
+                    new_list[index + 2] = element
+                    new_list[index] = '0'
+                    successors['D2: ' + element] = tuple(new_list)
 
-                    # L1
-                    if index > 0 and curr_list[index - 1] == '0':
-                        new_list = list(state)
-                        new_list[index - 1] = element
-                        new_list[index] = '0'
-                        successors['L1: ' + element] = tuple(new_list)
+                # L1
+                if index > 0 and curr_list[index - 1] == '0':
+                    new_list = list(state)
+                    new_list[index - 1] = element
+                    new_list[index] = '0'
+                    successors['L1: ' + element] = tuple(new_list)
 
-                    # L2
-                    if index > 1 and curr_list[index - 1] != '0' and curr_list[index - 2] == '0':
-                        new_list = list(state)
-                        new_list[index - 2] = element
-                        new_list[index] = '0'
-                        successors['L2: ' + element] = tuple(new_list)
+                # L2
+                if index > 1 and curr_list[index - 1] != '0' and curr_list[index - 2] == '0':
+                    new_list = list(state)
+                    new_list[index - 2] = element
+                    new_list[index] = '0'
+                    successors['L2: ' + element] = tuple(new_list)
 
         return successors
 
