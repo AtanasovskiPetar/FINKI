@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Modal</title>
+	<script src="../jquery/jquery.js"></script>
+  	<script src="../jquery/jquery-ui.js"></script>
+  	<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+  
+	<style>
+		#main button{
+			display: block;
+			margin: 10px;
+		}
+		#main input{
+			width: auto;
+			margin: 10px;
+		}
+		
+	</style>
+	<script>
+		$(document).ready(function() {
+			$( "#dialog" ).dialog({
+			  autoOpen: false,
+			  modal: true,
+			  buttons: {
+				Proceed: function(){
+				  $("#data").html($("#input-data").val());
+				  //validation here
+				  $( "#dialog" ).dialog("close");
+				}
+			  }
+			});
+	  
+			$("#modal").click(function(){
+				$( "#dialog" ).dialog("open");
+			});
+		});
+	  
+		</script>
+</head>
+<body>
+ 
+	<input type="button" id="modal" value="Enter data" />
+	<div id="data" class="content"></div>
+	
+	
+	<div id="dialog" title="Sample">
+	  <p>Enter your name and surname below:</p>
+	  <input id="input-data" type="text"/>
+	</div>
+	 
+	 
+	</body>
+	
+</html>

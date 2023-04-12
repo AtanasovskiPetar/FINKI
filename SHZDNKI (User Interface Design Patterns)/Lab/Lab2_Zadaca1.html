@@ -1,0 +1,110 @@
+<!Doctype html>
+<html >
+	<head>	
+		<meta charset="UTF-8" />
+		<script src="https://code.jquery.com/jquery-2.1.1.js">
+</script>
+	<style>
+		#nav {
+			background-color: #ffdc3e;
+			width:370px;
+			border:1px solid black;
+            font-family: 'Times New Roman', Times, serif;
+		}
+		#t1, #t2, #t3{
+			background-color: #edffb6;
+			margin:0px 0px 10px 10px;
+			width:100px;
+			font-style:italic;
+		}
+		#nav p {
+			margin-left:10px;
+			padding-top:10px;
+		}
+		.style{
+			background-color: #9dffa7;
+		}
+		#container div {
+			display:none; 
+		}
+		#container {
+			width:370px;
+			border:1px solid black;
+			background-color:rgb(88, 170, 197);
+		}
+	</style>
+	</head>
+	<body>
+		<div id="nav">
+			<p><em>Custom tab</em></p>
+			<input type="button" id="t1"value="OpenStart"/>
+			<input type="button" id="t2" value="Connect"/>
+			<input type="button" id="t3"value="Pin apps"/>
+		
+		</div>
+		<div id="container">
+			<div id="tab1">
+				<p>Open Start by swiping in from the right edge of the screen and then tapping Start. (Or, if you're using a mouse, point to the lower-left corner of the screen, move your mouse all the way into the corner, and then click Start.) To customize Start, swipe up from the bottom edge and tap Customize. (If you're using a mouse, right-click anywhere on the screen and click Customize.) From here you can organize the Start screen however you like by moving tiles around, changing tile sizes, and naming groups of tiles. </p>
+			</div>	
+			<div id="tab2">
+			<p>When you connect a device to your PC, such as a printer, mouse, or keyboard, Windows automatically tries to install the correct driver for your device. A driver is software that a device uses to work with your PC. Every device needs a driver to work with your PC. If Windows can't find a driver for the device, here are several suggestions you can try. If you're trying to add a wireless device or a device on a network, but Windows isn't finding it, see  Why isn't Windows finding my wireless device?</p>
+			</div>
+			<div id="tab3">
+			<p>You can pin apps, websites, people, and folders to Start to easily get to what you use most. Tiles and notifications show what's new so you can get important info and updates at a glance. From Start, you don't have to bring up the charms to begin a search-start typing to search for what you want. You can choose results from your apps, files, PC settings, and Bing.To see a list of all apps on your PC from Start, slide up from the middle of the screen or use the mouse to click the down arrow in the bottom left corner. To pin an app to Start select the app by pressing and holding or right clicking the tile, then tap or click Pin to Start. To customize Start, swipe up from the bottom edge and tap Customize. (If you're using a mouse, right-click anywhere on the screen and click Customize.) From here you can organize the Start screen however you like by moving tiles around, changing tile sizes, and naming groups of tiles.</p>
+			</div>
+		</div>
+	</body>
+	<script>
+	var flag=true;
+		$(document).ready(function(){
+		$("#t1").click(function(){
+		if(flag){
+			$("#tab1").show();
+			$("#tab2").hide();
+			$("#tab3").hide();
+			flag=false;
+			var t=document.getElementById("t1");
+			t.classList.add("style");
+			}
+			else{
+				$("#tab1").hide();
+			$("#tab2").hide();
+			$("#tab3").hide();
+			flag=true;
+			}
+			});
+		});
+			
+			$("#t2").click(function(){
+			
+			if(flag){
+			$("#tab1").hide();
+			$("#tab2").show();
+			$("#tab3").hide();
+				flag=false;
+				t.classList.add("green");
+			}
+			else{
+				$("#tab1").hide();
+				$("#tab2").hide();
+				$("#tab3").hide();
+				flag=true;
+			}
+		});
+			$("#t3").click(function(){
+			
+			if(flag){
+			$("#tab1").hide();
+			$("#tab2").hide();
+			$("#tab3").show();
+				flag=false
+			}
+			else{
+					$("#tab1").hide();
+					$("#tab2").hide();
+					$("#tab3").hide();
+				flag=true;
+			}
+		});
+	</script>
+</html>

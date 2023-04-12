@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Year Search</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        $(function (){
+            $(document).tooltip()
+            function getDrivers(year) { $.ajax({
+                url: "http://ergast.com/api/f1/"+year+"/drivers.json", dataType: "json",
+                success: function (data) {
+                    $.each(data.MRData.DriverTable.Drivers, function (i, item) {
+                        var list_item = $("<li>").append(item.givenName+""+item.familyName);
+                        list_item.attr("name", item.givenName+""+item.familyName)
+                        list_item.attr("nationality", item.nationality)
+                        list_item.attr("date", item.dateOfBirth)
+                        list_item.attr("url", item.url)
+                        list_item.appendTo("#list")
+
+                    }) }
+            }) }
+
+            $("#getValBtnID").click(function () {
+                var year = $("#year").val();
+                getDrivers(year);
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div id="listWrapper">
+        <input type="text" id="year">
+        <button type="button" id="getValBtnID">
+            Get Drivers From the Year
+        </button>
+        <ul id="list"></ul>
+    </div>
+</body>
+</html>

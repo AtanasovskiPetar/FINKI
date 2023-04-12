@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>F1 Drivers</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        $(function (){
+            $(document).tooltip()
+            function getDrivers(year) { $.ajax({
+                url: "http://ergast.com/api/f1/"+year+"/drivers.json", dataType: "json",
+                success: function (data) {
+                    $.each(data.MRData.DriverTable.Drivers, function (i, item) {
+                        // let name = item.givenName + " " + item.familyName;
+                        // let dateOfBirth = item.dateOfBirth;
+                        // let nationality = item.nationality;
+                        // let hisLink = item.url;
+                        //item1 = item;
+                        //$("#"+year).append("<li><div><p>Name: "+name+"</p><p>Date of Birth: "+dateOfBirth+"</p>
+                        //   <p>Nationality: "+nationality+"</p><p>More info: <a href='"+hisLink+"'>Bio</a></p></div></li>");
+                        //$("#"+year).append("<li><div><p>Name: "+name+"</p></div></li>");
+
+                        var list_item = $("<li>").append(item.givenName+" "+item.familyName);
+                        list_item.attr("name", item.givenName+" "+item.familyName)
+                        list_item.attr("nationality", item.nationality)
+                        list_item.attr("date", item.dateOfBirth)
+                        list_item.attr("url", item.url)
+                        list_item.appendTo("#"+year)
+
+                    }) }
+            }) }
+            getDrivers(2016);
+            getDrivers(2017);
+
+
+            $( "#2016, #2017" ).sortable({
+                connectWith: "#fav"
+            });
+            $( "#fav" ).sortable({
+                connectWith: "#2016, #2017"
+            });
+
+            $(document).on("click", "#fav li", function () {
+                $("#name").html($(this).attr("name"))
+                $("#nationality").html($(this).attr("nationality"))
+                $("#date").html($(this).attr("date"))
+                $("#link").attr("href", $(this).attr("url"))
+            })
+
+        });
+
+    </script>
+    <style>
+        .driversList{
+            width: 22%;
+            display: block;
+            float: left;
+        }
+        #fav{
+            height: max-content;
+            padding-bottom: 50px;
+        }
+        #addInfo{
+            width: 22%;
+            display: block;
+            float: left;
+        }
+        #links{
+            clear: both;
+        }
+        #links a{
+            display: block;
+            width: 30px;
+            height: 30px;
+            float: left;
+            margin: 0px 20px;
+        }
+        #instagram{
+            background: url("instagram.jpeg")no-repeat;
+            background-size: cover;
+        }
+        #facebook{
+            background: url("facebook.png")no-repeat;
+            background-size: cover;
+        }
+        #hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div class="driversList" id="drivers2016">
+        <h3>Drivers 2016</h3>
+        <ul id="2016">
+        </ul>
+    </div>
+    <div class="driversList" id="drivers2017">
+        <h3>Drivers 2017</h3>
+        <ul id="2017">
+        </ul>
+    </div>
+    <div class="driversList" id="favDrivers">
+        <h3>Favourite Drivers</h3>
+        <p>Put your drivers here</p>
+        <ul id="fav">
+
+        </ul>
+    </div>
+    <div id="addInfo">
+        <h3>Additional Info for the selected driver</h3>
+        <p>Name: <span id="name"></span></p>
+        <p>Nationality: <span id="nationality"></span></p>
+        <p>Date of birth: <span id="date"></span></p>
+        <a id="link" href="">Link</a>
+    </div>
+    <div id="links">
+        <h3>Social Links</h3>
+        <a id="instagram" href="https://www.instagram.com/"></a>
+        <a id="facebook" href="https://www.facebook.com/"></a>
+    </div>
+</div>
+</body>
+</html>

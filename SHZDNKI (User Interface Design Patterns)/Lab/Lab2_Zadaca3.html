@@ -1,0 +1,63 @@
+<!Doctype html>
+	<html>
+		<head>
+			<title>lab3</title>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+			<meta charset="utf-8" />
+			<script>
+				$(document).ready(function() {
+					var kniga_dialog = $("#dialog-form").dialog({
+						autoOpen: false,
+						buttons : [
+							{
+								text : 'Add a book',
+								click : function() {
+									$name=$("#name").val();
+									$avtor=$("#author").val();
+									$kom=$("#comment").val();
+									$red = "<tr><td>"+$name+"</td><td>"+$avtor+"</td><td>"+$kom+"</td></tr>";
+									$("#t1").append($red);
+									$( this ).dialog( "close" );
+									
+								},
+							},
+							{
+								text : "Cancel",
+								click : function() {
+									$( this ).dialog( "close" );
+								}
+							}
+						]
+					})
+					$("#btn").click(function() {
+						kniga_dialog.dialog('open');
+					})
+				})
+			</script>
+		</head>
+		<body>
+			<div id="dialog-form" title="Add a book">
+				<p class="validateTips">All form fields are required.</p>
+				<form>
+					<fieldset>
+					  <label for="name">Title</label>
+					  <input type="text" name="name" id="name"  class="text ui-widget-content ui-corner-all">
+					  <label for="name">Author</label>
+					  <input type="text" name="author" id="author"  class="text ui-widget-content ui-corner-all">
+					  <label for="name">Comment</label>
+					  <textarea id="comment"></textarea>
+					  <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+					</fieldset>
+				</form>
+			</div>
+			<input type="button" id="btn" value="Add Book " style="width:100px"></input>
+			<table id="t1">
+				
+			</table>
+		</body>
+	</html>
+
+    <!-- Се користи шаблонот modal или Режимски затоа што Aпликацијата има потреба од информации за корисникот 
+    и нема можност за навигација дури не се реши проблемот и соберат тие информации-->

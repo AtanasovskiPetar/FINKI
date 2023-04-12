@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var date = new Date();
+        var second = date.getSeconds();
+        var minute = date.getMinutes();
+        var hour = date.getHours();
+        var day = date.getDay();
+        var month = date.getMonth();
+        var year = date.getFullYear();
+
+        var leftHour = 23 - hour;
+        var leftMinute = 59 - minute;
+        var leftSeconds = 59 - second;
+        document.write(leftHour+":"+leftMinute+":"+leftSeconds);
+    </script>
+    
+</body>
+</html>

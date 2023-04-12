@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search Drivers</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        $(function (){
+            $(document).tooltip()
+            function getDrivers(inputString) { $.ajax({
+                url: "http://ergast.com/api/f1/2022/drivers.json", dataType: "json",
+                success: function (data) {
+                    $.each(data.MRData.DriverTable.Drivers, function (i, item) {
+
+                         let driverId = item.driverId;
+                         let name = item.givenName + " " + item.familyName;
+                         let dateOfBirth = item.dateOfBirth;
+                         let nationality = item.nationality;
+                         let hisLink = item.url;
+
+
+                        if($.trim(item.familyName) == $.trim(inputString)) {
+                            var list_item = $("<li>").append("<p>Name: "+name+"</p>");
+                            list_item.attr("name", name)
+                            list_item.attr("nationality", nationality)
+                            list_item.attr("date", dateOfBirth)
+                            list_item.attr("url", hisLink)
+                            list_item.appendTo("#list")
+                        }
+
+                    }) }
+            }) }
+
+
+            $("#getValBtnID").click(function () {
+                var inputString = $("#driverName").val();
+                getDrivers(inputString);
+            });
+
+            $(document).on("click", "#list li", function () {
+                $("#name").html($(this).attr("name"))
+                $("#nationality").html($(this).attr("nationality"))
+                $("#date").html($(this).attr("date"))
+                $("#link").attr("href", $(this).attr("url"))
+            })
+
+        });
+
+    </script>
+    <style>
+        #listWrapper, #addInfo{
+            float: left;
+        }
+        #socialLinks{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<div id = wrapper>
+
+    <div id="listWrapper">
+        <input type="text" id="driverName">
+        <button type="button" id="getValBtnID">
+            Get Driver
+        </button>
+        <ul id="list"></ul>
+    </div>
+    <div id="addInfo">
+        <h3>Additional Info for the selected driver</h3>
+        <p>Name: <span id="name"></span></p>
+        <p>Nationality: <span id="nationality"></span></p>
+        <p>Date of birth: <span id="date"></span></p>
+        <a id="link" href="">Link</a>
+    </div>
+    <div id = "socialLinks" style="width: max-content; height: max-content; margin: auto; padding-top: 100px" >
+        <a href="https://facebook.com"><img src = "images/facebook.png"></a>
+        <a href="https://reddit.com"><img src="images/reddit.png"></a>
+        <a href="https://linkedin.com"><img src="images/linkedin.png"></a>
+        <a href="https://flickr.com"><img src="images/flickr.png"></a>
+    </div>
+</div>
+</body>
+</html>
