@@ -31,7 +31,7 @@ public class Vinegar {
             thread.start();
         }
 
-
+        // after all of them are started, wait each of them to finish for maximum 2_000 ms
         for (Thread thread : threads) {
             try {
                 thread.join(2000);
@@ -40,9 +40,7 @@ public class Vinegar {
             }
         }
 
-
-        // after all of them are started, wait each of them to finish for maximum 2_000 ms
-
+        // for each thread, terminate it if it is not finished
         for (Thread thread : threads){
             if(thread.isAlive()){
                 System.out.println("Possible deadlock!");
@@ -50,14 +48,6 @@ public class Vinegar {
             }
         }
         System.out.println("Process finished.");
-
-
-        // for each thread, terminate it if it is not finished
-
-
-
-
-
     }
 
     public static Semaphore c = new Semaphore(2);
@@ -67,9 +57,6 @@ public class Vinegar {
     public static int counter = 0;
     public static Semaphore canBond = new Semaphore(0);
     public static Semaphore canExit = new Semaphore(0);
-    public static boolean flag = false;
-    public static int totalMoleculeCounter = 0;
-
     static class C extends Thread{
 
         @Override
