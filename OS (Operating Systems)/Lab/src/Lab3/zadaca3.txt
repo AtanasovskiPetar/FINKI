@@ -1,0 +1,31 @@
+1. mkdir dir200 // cd dir200 // touch wp.csv emt.csv db.csv
+
+2.
+
+printf "Petar,Atanasovski,216052,85\nNikola,Dinevski,216045,78\nAndrej,Mickov,216014,92\n" >> wp.csv
+printf "Petar,Atanasovski,216052,85\nNikola,Dinevski,216045,78\nAndrej,Mickov,216014,92\n" >> emt.csv
+printf "Petar,Atanasovski,216052,85\nNikola,Dinevski,216045,78\nAndrej,Mickov,216014,92\n" >> db.csv
+ 3. cat wp.csv // cat emt.csv // cat db.csv -> separately
+
+cat wp.csv emt.csv db.csv -> together
+
+4. cat wp.csv emt.csv db.csv > all.csv
+
+5. mkdir dir200/results // mv all.csv dir200/results/
+
+6. wc -l all.csv -> rows
+
+wc -w all.csv -> words
+
+wc -c all.csv -> signs
+
+7. grep -E ".*,.*,19.*," all.csv
+8. grep -E '.*,.*,20.*,([5-9][0-9]|100)' all.csv | cut -d "," -f 1,2 | sed -n "s/,/\*/p"
+
+
+
+Дополнително барање:
+
+touch 17may.csv
+
+last | grep "May 17" | awk '{print $1","$3}' | grep '7$' | sort -t ',' -k2 -r -n | uniq > 17May.csv

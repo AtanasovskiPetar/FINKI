@@ -1,0 +1,11 @@
+1. man cat
+
+2. mkdir dir001 // cd dir001 // touch file123
+
+3. chmod ug+rw file123
+
+4. chmod 660 file123
+
+5. who
+
+6. cd.. // rm -r dir001
