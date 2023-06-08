@@ -1,0 +1,11 @@
+C:\Users\Jovana\Desktop\Petar\VP\BallsSpawning\BallsSpawning\obj\Debug\BallsSpawning.csproj.AssemblyReference.cache
+C:\Users\Jovana\Desktop\Petar\VP\BallsSpawning\BallsSpawning\obj\Debug\BallsSpawning.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jovana\Desktop\Petar\VP\BallsSpawning\BallsSpawning\obj\Debug\BallsSpawning.Form1.resources
+C:\Users\Jovana\Desktop\Petar\VP\BallsSpawning\BallsSpawning\obj\Debug\BallsSpawning.Properties.Resources.resources
+C:\Users\Jovana\Desktop\Petar\VP\BallsSpawning\BallsSpawning\obj\Debug\BallsSpawning.csproj.GenerateResource.cache
+C:\Users\Jovana\Desktop\Petar\VP\BallsSpawning\BallsSpawning\obj\Debug\BallsSpawning.csproj.CoreCompileInputs.cache
+C:\Users\Jovana\Desktop\Petar\VP\BallsSpawning\BallsSpawning\bin\Debug\BallsSpawning.exe.config
+C:\Users\Jovana\Desktop\Petar\VP\BallsSpawning\BallsSpawning\bin\Debug\BallsSpawning.exe
+C:\Users\Jovana\Desktop\Petar\VP\BallsSpawning\BallsSpawning\bin\Debug\BallsSpawning.pdb
+C:\Users\Jovana\Desktop\Petar\VP\BallsSpawning\BallsSpawning\obj\Debug\BallsSpawning.exe
+C:\Users\Jovana\Desktop\Petar\VP\BallsSpawning\BallsSpawning\obj\Debug\BallsSpawning.pdb

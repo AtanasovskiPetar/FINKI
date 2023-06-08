@@ -1,0 +1,11 @@
+C:\Users\Jovana\Desktop\Petar\VP\Hangman\Hangman\bin\Debug\Hangman.exe.config
+C:\Users\Jovana\Desktop\Petar\VP\Hangman\Hangman\bin\Debug\Hangman.exe
+C:\Users\Jovana\Desktop\Petar\VP\Hangman\Hangman\bin\Debug\Hangman.pdb
+C:\Users\Jovana\Desktop\Petar\VP\Hangman\Hangman\obj\Debug\Hangman.csproj.AssemblyReference.cache
+C:\Users\Jovana\Desktop\Petar\VP\Hangman\Hangman\obj\Debug\Hangman.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jovana\Desktop\Petar\VP\Hangman\Hangman\obj\Debug\Hangman.Form1.resources
+C:\Users\Jovana\Desktop\Petar\VP\Hangman\Hangman\obj\Debug\Hangman.Properties.Resources.resources
+C:\Users\Jovana\Desktop\Petar\VP\Hangman\Hangman\obj\Debug\Hangman.csproj.GenerateResource.cache
+C:\Users\Jovana\Desktop\Petar\VP\Hangman\Hangman\obj\Debug\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\Jovana\Desktop\Petar\VP\Hangman\Hangman\obj\Debug\Hangman.exe
+C:\Users\Jovana\Desktop\Petar\VP\Hangman\Hangman\obj\Debug\Hangman.pdb

@@ -1,0 +1,12 @@
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\bin\Debug\ExamProblems.exe.config
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\bin\Debug\ExamProblems.exe
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\bin\Debug\ExamProblems.pdb
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\obj\Debug\ExamProblems.csproj.AssemblyReference.cache
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\obj\Debug\ExamProblems.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\obj\Debug\ExamProblems.ExamProblems.resources
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\obj\Debug\ExamProblems.NewExam.resources
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\obj\Debug\ExamProblems.Properties.Resources.resources
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\obj\Debug\ExamProblems.csproj.GenerateResource.cache
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\obj\Debug\ExamProblems.csproj.CoreCompileInputs.cache
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\obj\Debug\ExamProblems.exe
+C:\Users\User\VP_Petar\Labaratoriski\ExamProblems\ExamProblems\obj\Debug\ExamProblems.pdb

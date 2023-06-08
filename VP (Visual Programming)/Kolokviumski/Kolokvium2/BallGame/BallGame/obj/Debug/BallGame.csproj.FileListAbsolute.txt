@@ -1,0 +1,11 @@
+C:\Users\Jovana\Desktop\Petar\VP\BallGame\BallGame\bin\Debug\BallGame.exe.config
+C:\Users\Jovana\Desktop\Petar\VP\BallGame\BallGame\bin\Debug\BallGame.exe
+C:\Users\Jovana\Desktop\Petar\VP\BallGame\BallGame\bin\Debug\BallGame.pdb
+C:\Users\Jovana\Desktop\Petar\VP\BallGame\BallGame\obj\Debug\BallGame.csproj.AssemblyReference.cache
+C:\Users\Jovana\Desktop\Petar\VP\BallGame\BallGame\obj\Debug\BallGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jovana\Desktop\Petar\VP\BallGame\BallGame\obj\Debug\BallGame.Form1.resources
+C:\Users\Jovana\Desktop\Petar\VP\BallGame\BallGame\obj\Debug\BallGame.Properties.Resources.resources
+C:\Users\Jovana\Desktop\Petar\VP\BallGame\BallGame\obj\Debug\BallGame.csproj.GenerateResource.cache
+C:\Users\Jovana\Desktop\Petar\VP\BallGame\BallGame\obj\Debug\BallGame.csproj.CoreCompileInputs.cache
+C:\Users\Jovana\Desktop\Petar\VP\BallGame\BallGame\obj\Debug\BallGame.exe
+C:\Users\Jovana\Desktop\Petar\VP\BallGame\BallGame\obj\Debug\BallGame.pdb

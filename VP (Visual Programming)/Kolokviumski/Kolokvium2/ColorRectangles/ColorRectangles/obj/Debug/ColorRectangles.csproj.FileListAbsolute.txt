@@ -1,0 +1,11 @@
+C:\Users\Jovana\Desktop\Petar\VP\ColorRectangles\ColorRectangles\obj\Debug\ColorRectangles.csproj.AssemblyReference.cache
+C:\Users\Jovana\Desktop\Petar\VP\ColorRectangles\ColorRectangles\obj\Debug\ColorRectangles.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jovana\Desktop\Petar\VP\ColorRectangles\ColorRectangles\obj\Debug\ColorRectangles.Form1.resources
+C:\Users\Jovana\Desktop\Petar\VP\ColorRectangles\ColorRectangles\obj\Debug\ColorRectangles.Properties.Resources.resources
+C:\Users\Jovana\Desktop\Petar\VP\ColorRectangles\ColorRectangles\obj\Debug\ColorRectangles.csproj.GenerateResource.cache
+C:\Users\Jovana\Desktop\Petar\VP\ColorRectangles\ColorRectangles\obj\Debug\ColorRectangles.csproj.CoreCompileInputs.cache
+C:\Users\Jovana\Desktop\Petar\VP\ColorRectangles\ColorRectangles\bin\Debug\ColorRectangles.exe.config
+C:\Users\Jovana\Desktop\Petar\VP\ColorRectangles\ColorRectangles\bin\Debug\ColorRectangles.exe
+C:\Users\Jovana\Desktop\Petar\VP\ColorRectangles\ColorRectangles\bin\Debug\ColorRectangles.pdb
+C:\Users\Jovana\Desktop\Petar\VP\ColorRectangles\ColorRectangles\obj\Debug\ColorRectangles.exe
+C:\Users\Jovana\Desktop\Petar\VP\ColorRectangles\ColorRectangles\obj\Debug\ColorRectangles.pdb

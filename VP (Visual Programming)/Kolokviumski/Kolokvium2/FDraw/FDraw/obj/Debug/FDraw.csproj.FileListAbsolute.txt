@@ -1,0 +1,11 @@
+C:\Users\Jovana\Desktop\Petar\VP\FDraw\FDraw\bin\Debug\FDraw.exe.config
+C:\Users\Jovana\Desktop\Petar\VP\FDraw\FDraw\bin\Debug\FDraw.exe
+C:\Users\Jovana\Desktop\Petar\VP\FDraw\FDraw\bin\Debug\FDraw.pdb
+C:\Users\Jovana\Desktop\Petar\VP\FDraw\FDraw\obj\Debug\FDraw.csproj.AssemblyReference.cache
+C:\Users\Jovana\Desktop\Petar\VP\FDraw\FDraw\obj\Debug\FDraw.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jovana\Desktop\Petar\VP\FDraw\FDraw\obj\Debug\FDraw.Form1.resources
+C:\Users\Jovana\Desktop\Petar\VP\FDraw\FDraw\obj\Debug\FDraw.Properties.Resources.resources
+C:\Users\Jovana\Desktop\Petar\VP\FDraw\FDraw\obj\Debug\FDraw.csproj.GenerateResource.cache
+C:\Users\Jovana\Desktop\Petar\VP\FDraw\FDraw\obj\Debug\FDraw.csproj.CoreCompileInputs.cache
+C:\Users\Jovana\Desktop\Petar\VP\FDraw\FDraw\obj\Debug\FDraw.exe
+C:\Users\Jovana\Desktop\Petar\VP\FDraw\FDraw\obj\Debug\FDraw.pdb

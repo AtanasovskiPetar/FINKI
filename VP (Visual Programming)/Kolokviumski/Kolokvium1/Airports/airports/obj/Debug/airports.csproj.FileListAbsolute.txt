@@ -1,0 +1,13 @@
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\bin\Debug\airports.exe.config
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\bin\Debug\airports.exe
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\bin\Debug\airports.pdb
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\obj\Debug\airports.csproj.AssemblyReference.cache
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\obj\Debug\airports.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\obj\Debug\airports.AddAirportForm.resources
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\obj\Debug\airports.Airports.resources
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\obj\Debug\airports.Properties.Resources.resources
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\obj\Debug\airports.csproj.GenerateResource.cache
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\obj\Debug\airports.csproj.CoreCompileInputs.cache
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\obj\Debug\airports.exe
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\obj\Debug\airports.pdb
+C:\Users\User\VP_Petar\Kolokvium1\airports\airports\obj\Debug\airports.NewDestination.resources

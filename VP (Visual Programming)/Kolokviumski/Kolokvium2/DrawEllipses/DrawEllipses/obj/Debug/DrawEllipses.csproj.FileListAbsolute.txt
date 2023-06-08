@@ -1,0 +1,11 @@
+C:\Users\Jovana\Desktop\Petar\VP\DrawEllipses\DrawEllipses\bin\Debug\DrawEllipses.exe.config
+C:\Users\Jovana\Desktop\Petar\VP\DrawEllipses\DrawEllipses\bin\Debug\DrawEllipses.exe
+C:\Users\Jovana\Desktop\Petar\VP\DrawEllipses\DrawEllipses\bin\Debug\DrawEllipses.pdb
+C:\Users\Jovana\Desktop\Petar\VP\DrawEllipses\DrawEllipses\obj\Debug\DrawEllipses.csproj.AssemblyReference.cache
+C:\Users\Jovana\Desktop\Petar\VP\DrawEllipses\DrawEllipses\obj\Debug\DrawEllipses.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jovana\Desktop\Petar\VP\DrawEllipses\DrawEllipses\obj\Debug\DrawEllipses.Form1.resources
+C:\Users\Jovana\Desktop\Petar\VP\DrawEllipses\DrawEllipses\obj\Debug\DrawEllipses.Properties.Resources.resources
+C:\Users\Jovana\Desktop\Petar\VP\DrawEllipses\DrawEllipses\obj\Debug\DrawEllipses.csproj.GenerateResource.cache
+C:\Users\Jovana\Desktop\Petar\VP\DrawEllipses\DrawEllipses\obj\Debug\DrawEllipses.csproj.CoreCompileInputs.cache
+C:\Users\Jovana\Desktop\Petar\VP\DrawEllipses\DrawEllipses\obj\Debug\DrawEllipses.exe
+C:\Users\Jovana\Desktop\Petar\VP\DrawEllipses\DrawEllipses\obj\Debug\DrawEllipses.pdb

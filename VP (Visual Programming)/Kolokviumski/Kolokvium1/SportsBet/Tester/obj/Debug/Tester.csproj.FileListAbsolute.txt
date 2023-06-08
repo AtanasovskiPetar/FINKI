@@ -1,0 +1,15 @@
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\bin\Debug\Tester.exe.config
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\bin\Debug\Tester.exe
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\bin\Debug\Tester.pdb
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\bin\Debug\aa\Tester.resources.dll
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\obj\Debug\Tester.csproj.AssemblyReference.cache
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\obj\Debug\Tester.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\obj\Debug\Tester.Kladilnica.resources
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\obj\Debug\Tester.Properties.Resources.resources
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\obj\Debug\Tester.TeamAddForm.resources
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\obj\Debug\Tester.Kladilnica.aa.resources
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\obj\Debug\Tester.csproj.GenerateResource.cache
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\obj\Debug\aa\Tester.resources.dll
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\obj\Debug\Tester.exe
+C:\Users\User\VP_Petar\Kolokvium1\Tester\Tester\obj\Debug\Tester.pdb

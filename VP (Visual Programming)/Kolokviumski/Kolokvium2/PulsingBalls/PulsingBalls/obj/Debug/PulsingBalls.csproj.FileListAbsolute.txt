@@ -1,0 +1,11 @@
+C:\Users\Jovana\Desktop\Petar\VP\PulsingBalls\PulsingBalls\bin\Debug\PulsingBalls.exe.config
+C:\Users\Jovana\Desktop\Petar\VP\PulsingBalls\PulsingBalls\bin\Debug\PulsingBalls.exe
+C:\Users\Jovana\Desktop\Petar\VP\PulsingBalls\PulsingBalls\bin\Debug\PulsingBalls.pdb
+C:\Users\Jovana\Desktop\Petar\VP\PulsingBalls\PulsingBalls\obj\Debug\PulsingBalls.csproj.AssemblyReference.cache
+C:\Users\Jovana\Desktop\Petar\VP\PulsingBalls\PulsingBalls\obj\Debug\PulsingBalls.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jovana\Desktop\Petar\VP\PulsingBalls\PulsingBalls\obj\Debug\PulsingBalls.Form1.resources
+C:\Users\Jovana\Desktop\Petar\VP\PulsingBalls\PulsingBalls\obj\Debug\PulsingBalls.Properties.Resources.resources
+C:\Users\Jovana\Desktop\Petar\VP\PulsingBalls\PulsingBalls\obj\Debug\PulsingBalls.csproj.GenerateResource.cache
+C:\Users\Jovana\Desktop\Petar\VP\PulsingBalls\PulsingBalls\obj\Debug\PulsingBalls.csproj.CoreCompileInputs.cache
+C:\Users\Jovana\Desktop\Petar\VP\PulsingBalls\PulsingBalls\obj\Debug\PulsingBalls.exe
+C:\Users\Jovana\Desktop\Petar\VP\PulsingBalls\PulsingBalls\obj\Debug\PulsingBalls.pdb
