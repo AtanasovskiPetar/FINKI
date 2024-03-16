@@ -1,0 +1,6 @@
+Bye 1
+from 1
+Goodbye 1
+Hello 2
+Petar 2
+World 2
